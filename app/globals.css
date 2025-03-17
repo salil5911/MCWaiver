@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --brand-mint: 126, 232, 194;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, rgb(var(--brand-mint)) 0%, rgb(var(--brand-mint) / 0.8) 100%);
+}
+
